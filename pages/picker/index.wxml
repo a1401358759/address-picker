@@ -1,0 +1,7 @@
+<view>
+  <import src="../../template/index.wxml"/>
+  <view bindtap='getSelecedData'>
+    <template is="areaPicker" data="{{...areaPicker}}" />
+  </view>
+
+</view>
